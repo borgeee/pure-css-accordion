@@ -1,7 +1,7 @@
 <style type="text/css">
 @charset "UTF-8";
 body {
-  color: #2c3e50;
+  acc-color: #2c3e50;
   background: #ecf0f1;
   padding: 0 1em 1em;
 }
@@ -26,10 +26,10 @@ input[title="chck-acc"] {
 .acc-row {
   display: flex;
 }
-.acc-row .col {
+.acc-row .acc-col {
   flex: 1;
 }
-.acc-row .col:last-child {
+.acc-row .acc-col:last-child {
   margin-left: 1em;
 }
 
@@ -42,7 +42,7 @@ input[title="chck-acc"] {
 
 .acc-tab {
   width: 100%;
-  color: white;
+  acc-color: white;
   overflow: hidden;
 }
 .acc-tab-label {
@@ -50,7 +50,7 @@ input[title="chck-acc"] {
   justify-content: space-between;
   padding: 1em;
   background: #f7f7f7;
-  color: #000;
+  acc-color: #000;
   font-weight: bold;
   cursor: pointer;
   /* Icon */
@@ -68,7 +68,7 @@ input[title="chck-acc"] {
 .acc-tab-content {
   max-height: 0;
   padding: 0 1em;
-  color: #2c3e50;
+  acc-color: #2c3e50;
   background: white;
   transition: all 0.35s;
 }
